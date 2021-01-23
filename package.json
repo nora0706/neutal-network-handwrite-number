@@ -1,15 +1,16 @@
 {
-  "name": "neutal-network-handwrite-number",
+  "name": "neutral-network-handwrite-number",
   "version": "1.0.0",
-  "description": "A simple application to recognize handwriting numbers powered by brain.js",
+  "description": "A simple application to recognize handwriting numbers, powered by brain.js",
   "main": "index.ts",
+  "repository": "https://github.com/nora0706/neutral-network-handwrite-number",
   "scripts": {
     "start": "MODE=TRAIN ts-node index.ts",
     "test": "MODE=TEST ts-node index.ts",
     "image": "MODE=IMAGE ts-node index.ts"
   },
   "author": "nora0706",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "devDependencies": {
     "@types/node": "^14.14.22"
   },
