@@ -2,7 +2,7 @@
   "name": "neutal-network-handwrite-number",
   "version": "1.0.0",
   "description": "A simple application to recognize handwriting numbers powered by brain.js",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "start": "MODE=TRAIN ts-node index.ts",
     "test": "MODE=TEST ts-node index.ts",
