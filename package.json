@@ -1,0 +1,19 @@
+{
+  "name": "neutal-network-handwrite-number",
+  "version": "1.0.0",
+  "description": "A simple application to recognize handwriting numbers powered by brain.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "MODE=TRAIN ts-node index.ts",
+    "test": "MODE=TEST ts-node index.ts",
+    "image": "MODE=IMAGE ts-node index.ts"
+  },
+  "author": "nora0706",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.14.22"
+  },
+  "dependencies": {
+    "brain.js": "^2.0.0-beta.2"
+  }
+}
